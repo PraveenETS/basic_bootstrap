@@ -6,19 +6,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
   <header>
     <div class="d-flex justify-content-between banner">
       <span><h2>thist is Logo</h2></span>
       
-      <span>
-        <div class="mcontainer" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!-- Right-aligned menu -->
+          <span>
+            <div class="mcontainer mb" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">Action</button>
+          <button class="dropdown-item" type="button">Another action</button>
+          <button class="dropdown-item" type="button">Something else here</button>
         </div>
-      </span>
+      </div>
+
     </div>
   <div class="bandis">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dignissimos labore blanditiis!0</p>
@@ -53,22 +66,49 @@
     </div> 
   </div>
 
-  <div class="third bg-info">
-    <div class="diss">
+  <div class="third container-fluid text-center">
+    <div class="diss  pb-4 pt-5">
       <h1>lknwxibeuie kjibnik </h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sunt, consequuntur aliquid sint recusandae ea eius exercitationem iure, culpa sapiente aspernatur amet?</p>
     </div>
   </div>
-  <div class="forth bg-light">
-    <div class="diss">
+  <div class="forth container text-center">
+    <div class="diss h-50 pb-4 pt-5">
       <h1>lknwxibeuie kjibnik </h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sunt, consequuntur aliquid sint recusandae ea eius exercitationem iure, culpa sapiente aspernatur amet?</p>
     </div>
   </div>
+
+<!-- gallery -->
+
+    <div class="gallery">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6 col-sm-12 mb-4"><img src="images/slide01.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-6 col-sm-12 mb-4"><img src="images/slide03.jpg" class="img-fluid" alt=""></div>
+          <div class="w-100"></div>
+          <div class="col-lg-6 col-sm-12 mb-4"><img src="images/slide02.jpg" class="img-fluid" alt=""></div>
+          <div class="col-lg-6 col-sm-12 mb-4"><img src="images/slide04.jpg" class="img-fluid" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <footer class="thefoot bg-dark pt-5 text-light">
+        <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-2x" ></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://mail.google.com/mail/u/0/"><i class="far fa-envelope fa-2x"></i></a>
+    
+                <p id="coppyr8" class="pt-5">&#169; Lorem ipsum dolor sit.</p>
+        
+      </footer>
+    </section>
   <script>
     function myFunction(x) {
       x.classList.toggle("change");
     }
+    
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

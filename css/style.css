@@ -1,8 +1,8 @@
 *{
     margin: 0%;
     text-align: center;
-
 }
+
 header{height: 80vh;
     color: aliceblue;
     background: round;
@@ -57,16 +57,14 @@ header{height: 80vh;
     margin: 10vh 5vw 10vh 5vw;
 }
  .third{
-    background-image:url(../images/pic02.jpg);
-    position: relative;
+    background-image:url(../images/pic01.jpg);
+    background-size: cover;
+   
+ }
+ .thefoot{
      height: 30vh;
  }
- .third .diss{
-     position: absolute;
-     top: 30%;
+ .thefoot a{
+    padding: 1vw;
+     color: aliceblue;
  }
- .forth{
-    position: relative;
-    height: 30vh;
- }
- 
